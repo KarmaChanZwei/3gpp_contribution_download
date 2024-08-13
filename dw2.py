@@ -28,7 +28,7 @@ if len(excel_files) > 0:
             continue
 
         # 读取第11列的值并以此值建立文件夹
-        folder_name = str(row[10])  # 第11列是索引10
+        folder_name = str(row.iloc[10])  # 第11列是索引10
         folder_path = os.path.join(current_dir, folder_name)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
@@ -52,7 +52,7 @@ if len(excel_files) > 0:
                         file.write(response.content)
 
                     # 重命名文件为 "第1列_第3列"
-                    new_filename = f"{str(row[0])} {str(row[2])}.zip"  # 第1列和第3列的值
+                    new_filename = f"{str(row.iloc[0])} {str(row.iloc[2])}.zip"  # 第1列和第3列的值
                     new_path = os.path.join(folder_path, new_filename)
                     os.rename(save_path, new_path)
 
