@@ -15,7 +15,7 @@ If you only need certain ageneda items, please edit the .xlsx and keep table hea
 
 dw2.py will rename the Tdoc to "TDocNo Source". dw3.py will rename the Tdoc to "TDocNo Source Title", with filename check for windows.
 
-NOTE: Windows has a 260 character limitation on MAX_PATH. It is recommended to use dw2.py. Anyway, it's your choice.
+NOTE: Windows has a 260 character limitation on MAX_PATH. It is recommended to use dw2.py if TDoc is co-signed with multiple companies. Anyway, it's your choice.
 
 <img width="912" alt="2a978c2c3886fbdf5301037012dd5d8" src="https://github.com/user-attachments/assets/b9718a3b-fbbc-4631-b55d-c93c4635eb81">
 
