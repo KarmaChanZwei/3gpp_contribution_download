@@ -3,7 +3,9 @@
 For CMCC RAN2 Team
 
 Download contributions on 3GPP server listed in TDoc_List_XXXX.xlsx, archive and rename them, useful in pre-meeting Tdoc review.
+
 dw2.py will rename the Tdoc to "TDocNo Source". dw3.py will rename the Tdoc to "TDocNo Source Title", with filename check for windows.
+
 NOTE: Windows has a 260 character limitation on MAX_PATH. It is recommended to use dw2.py if TDoc is co-signed with multiple companies. Anyway, it's your choice.
 
 How to use:
