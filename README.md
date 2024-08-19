@@ -1,6 +1,6 @@
 # 3gpp_contribution_download
 
-Download contributions on 3GPP server listed in TDic_List_XXXX.xlsx, archive and rename them, useful in pre-meeting Tdoc review.
+Download contributions on 3GPP server listed in TDoc_List_XXXX.xlsx, archive and rename them, useful in pre-meeting Tdoc review.
 
 How to use:
   1. Install Windows Terminal, https://learn.microsoft.com/zh-cn/windows/terminal/.
