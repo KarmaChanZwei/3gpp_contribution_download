@@ -6,7 +6,7 @@ Download contributions on 3GPP server listed in "TDoc_List_XXXX.xlsx", archive a
 
 dw2.py will rename the Tdoc to "TDocNo Source". dw3.py will rename the Tdoc to "TDocNo Source Title", with filename check for windows. dw3_trun.py is the same with dw3.py but will truncate filename longer than MAX_PATH for windows.
 
-If you don't know MAX_PATH, it is recommended to use dw2.py and dw3_trun.py if TDoc is co-signed with multiple companies. Anyway, it's your choice.
+If you don't know MAX_PATH, it is recommended to use dw2.py and dw3_trun.py. Anyway, it's your choice.
 
 How to use:
   1. Install Windows Terminal, https://learn.microsoft.com/zh-cn/windows/terminal/.
