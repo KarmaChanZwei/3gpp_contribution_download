@@ -12,7 +12,8 @@ How to use:
   1. Install Windows Terminal, https://learn.microsoft.com/zh-cn/windows/terminal/.
   2. Install Python, recommended 3.11.9, [https://www.python.org/downloads/](https://www.python.org/downloads/release/python-3119/). Use "python --version" to check version. Remember to add python.exe to PATH.
   3. Run "pip install pandas openpyxl requests" in Terminal.
-  4. Copy "TDoc_List_XXXX.xlsx" and scripts to an empty folder, right click on blank space and choose "Open in the terminal", then use "python dw2.py" , "python dw3.py", or "python dw3_trun.py". Script will automaticly creat agenda item folder and TDocs will be automaticly archived. 
+  4. Copy "TDoc_List_XXXX.xlsx" and scripts to an empty folder, right click on blank space and choose "Open in the terminal", then use "python dw2.py" , "python dw3.py", or "python dw3_trun.py". Script will automaticly creat agenda item folder and TDocs will be automaticly archived.
+  5. (Not necessary) run "unzip.py" in terminal to deflate all download contributions. 
 
 If there are multiple "TDoc_List_XXXX.xlsx", scripts will only process the first one.
 If you only need certain agenda items, please edit the .xlsx and KEEP TABLE HEADER.
